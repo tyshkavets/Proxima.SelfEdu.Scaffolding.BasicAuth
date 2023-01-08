@@ -2,6 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxima.SelfEdu.Scaffolding.BasicAuth", "Proxima.SelfEdu.Scaffolding.BasicAuth\Proxima.SelfEdu.Scaffolding.BasicAuth.csproj", "{F239C4F7-FA8A-4FEE-BF1D-397E16771F4F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{E5CA4E83-982F-4C7A-A9C0-B9F094FB828A}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

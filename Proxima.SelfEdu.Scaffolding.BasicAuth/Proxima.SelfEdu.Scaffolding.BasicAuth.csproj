@@ -13,10 +13,16 @@
             with the simplest authentication model possible. Consider yourself advised against using it in any
             sort of production environment.
         </Description>
+        <RepositoryUrl>https://github.com/tyshkavets/Proxima.SelfEdu.Scaffolding.BasicAuth</RepositoryUrl>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
     </PropertyGroup>
 
     <ItemGroup>
         <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="..\LICENSE;..\README.md" Pack="true" PackagePath=""/>
     </ItemGroup>
 
 </Project>
