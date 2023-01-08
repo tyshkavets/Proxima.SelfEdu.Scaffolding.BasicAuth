@@ -4,7 +4,7 @@
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <PackageId>Proxima.SelfEdu.Scaffolding.BasicAuth</PackageId>
-        <Version>1.0.0-rc3</Version>
+        <Version>1.0.0</Version>
         <Authors>Siarhei Tyshkavets</Authors>
         <Company>Siarhei Tyshkavets - Proxima Project</Company>
         <PackageTags>Authentication;ASP.NET Core Authentication;Basic HTTP Authentication</PackageTags>
