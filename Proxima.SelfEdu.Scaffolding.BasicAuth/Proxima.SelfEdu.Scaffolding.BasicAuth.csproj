@@ -4,10 +4,10 @@
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <PackageId>Proxima.SelfEdu.Scaffolding.BasicAuth</PackageId>
-        <Version>1.0.1</Version>
+        <Version>1.0.2</Version>
         <Authors>Siarhei Tyshkavets</Authors>
         <Company>Siarhei Tyshkavets - Proxima Project</Company>
-        <PackageTags>Authentication;ASP.NET Core Authentication;Basic HTTP Authentication</PackageTags>
+        <PackageTags>Authentication ASP.NET_Core_Authentication Basic_HTTP_Authentication http Auth</PackageTags>
         <Description>
             Package made to speed up scaffolding of personal projects, experiments and self-education efforts
             with the simplest authentication model possible. Consider yourself advised against using it in any
