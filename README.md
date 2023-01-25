@@ -39,4 +39,6 @@ builder.Services.AddBasicAuth(options =>
 If you want to modify created `AuthenticationTicket`, for example to add custom claims into `ClaimsPrincipal`,
 override `AuthenticationTicketFactory` delegate.
 
-At the moment, there is no way to override used auth schema name (`BasicAuthScheme`).
+By default, auth scheme is created named `BasicAuthScheme`. If this by chance conflicts with your auth setup,
+you can provide alternative scheme name as a parameter in existing overrides for `.AddBasicAuth` and
+`.AddBasicAuthFromOptions` extensions.
